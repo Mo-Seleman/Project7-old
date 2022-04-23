@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Anonymous Pro', monospace;
+}
+
+#bellIcon {
+    width: 100px;
+}
+
+#homeIcon,
+#barchartIcon,
+#membersIcon,
+#settingsIcon
+ {
+    width: 100px;
+    height: 50px;
+}
+
+hr {
+    margin: 25px;
+}
+
+#vcImage,
+#dbImage,
+#dwImage,
+#doImage
+ {
+    border-radius: 50%;
+}
+
+.new-members,
+.recent-activity,
+.message-user,
+.settings {
+    border-top: 1px solid black;
+    padding: 30px;
+}
