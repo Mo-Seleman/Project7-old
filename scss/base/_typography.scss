@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+header {
+    grid-area: header;
+    width: 100%;
+    height: 80px;
+    background-color: $dark-purple;
+    color: white;
+    display: grid;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 2fr;
+    align-items: center;
+}
+
+header span {
+    font-weight: 100;
+}
+
+#bellIcon {
+    width: 25px;
+    justify-self: center;
+}
+
+#header-img {
+    width: 40px;
+    border-radius: 50%;
+    justify-self: center;
+}
+
+.studentName,
+header h1 {
+    justify-self: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 grey, 1px 1px 0 grey;
+}
+
+.studentName {
+    justify-self: center;
+    font-size: 13.5px;
+}
+
+hr {
+    margin: 25px;
+}
+
+/* ===================================== */
+/*              Body                     */
+/* ===================================== */
+
+.new-members,
+.recent-activity,
+.message-user,
+.settings {
+    border-top: 1px solid black;
+    padding: 30px;
+}
+
+/* ===================================== */
+/*              Social Stats             */
+/* ===================================== */
+.facebook-stats,
+.instagram-stats,
+.twitter-stats {
+border: 2px solid #d1d1d1;
+border-radius: 10px;
+width: 90%;
+margin: 20px auto;
+background-color: $grey-theme;
+display: flex;
+align-items: center;
+}
+
+#facebook-text-header,
+#instagram-text-header,
+#twitter-text-header
+ {
+    font-size: 1.25rem;
+    color: $dark-purple;
+}
+
+#facebook-text-number,
+#instagram-text-number,
+#twitter-text-number {
+    font-size: 2rem;
+    color: $grey-text;
+}

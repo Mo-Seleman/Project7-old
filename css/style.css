@@ -1,155 +1,165 @@
+/* line 1, ../../../../Code/Project7/scss/base/_typography.scss */
 * {
-    box-sizing: border-box; 
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Anonymous Pro', monospace;
 }
 
-/* ===================================== */
-/*              Header                   */
-/* ===================================== */
-
+/* line 8, ../../../../Code/Project7/scss/base/_typography.scss */
 header {
-    grid-area: header;
-    width: 100%;
-    height: 80px;
-    background-color: #7477bf;
-    color: white;
-    display: grid;
+  grid-area: header;
+  width: 100%;
+  height: 80px;
+  background-color: #7477bf;
+  color: white;
+  display: grid;
 }
 
+/* line 17, ../../../../Code/Project7/scss/base/_typography.scss */
 .header-container {
-    display: grid;
-    grid-template-columns: 3fr 1fr 1fr 2fr;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 2fr;
+  align-items: center;
 }
 
+/* line 23, ../../../../Code/Project7/scss/base/_typography.scss */
 header span {
-    font-weight: 100;
+  font-weight: 100;
 }
 
+/* line 27, ../../../../Code/Project7/scss/base/_typography.scss */
 #bellIcon {
-    width: 25px;
-    justify-self: center;
+  width: 25px;
+  justify-self: center;
 }
 
+/* line 32, ../../../../Code/Project7/scss/base/_typography.scss */
 #header-img {
-    width: 40px;
-    border-radius: 50%;
-    justify-self: center;
+  width: 40px;
+  border-radius: 50%;
+  justify-self: center;
 }
 
+/* line 38, ../../../../Code/Project7/scss/base/_typography.scss */
 .studentName,
 header h1 {
-    justify-self: center;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 grey, 1px 1px 0 grey;
+  justify-self: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 grey, 1px 1px 0 grey;
 }
 
+/* line 44, ../../../../Code/Project7/scss/base/_typography.scss */
 .studentName {
-    justify-self: center;
-    font-size: 13.5px;
+  justify-self: center;
+  font-size: 13.5px;
 }
 
-/* ===================================== */
-/*              Navigation               */
-/* ===================================== */
-
-main {
- grid-area: main;
+/* line 49, ../../../../Code/Project7/scss/base/_typography.scss */
+hr {
+  margin: 25px;
 }
 
-nav {
-    grid-area: nav;
-    background-color: #4d4c72;
-    display: flex;
-    max-height: 80px;
-}
-
-.navigation,
-a {
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    padding: 20px;
-}
-
-.navigation {
-align-items: center;
-padding: 25px;
-}
-
-/* ===================================== */
-/*              Main                     */
-/* ===================================== */
-.grid-container {
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "header header"
-    "nav nav"
-    "main main";
-}
 /* ===================================== */
 /*              Body                     */
 /* ===================================== */
-
-body {
-    display: grid;
-    font-family: 'Anonymous Pro', monospace;
-}
-
-hr {
-    margin: 25px;
-}
-
-#vcImage,
-#dbImage,
-#dwImage,
-#doImage
- {
-    border-radius: 50%;
-}
-
+/* line 57, ../../../../Code/Project7/scss/base/_typography.scss */
 .new-members,
 .recent-activity,
 .message-user,
 .settings {
-    border-top: 1px solid black;
-    padding: 30px;
+  border-top: 1px solid black;
+  padding: 30px;
 }
 
 /* ===================================== */
 /*              Social Stats             */
 /* ===================================== */
+/* line 68, ../../../../Code/Project7/scss/base/_typography.scss */
 .facebook-stats,
 .instagram-stats,
 .twitter-stats {
-border: 2px solid #d1d1d1;
-border-radius: 10px;
-width: 90%;
-margin: 20px auto;
-background-color: #f5f5f5;
-display: flex;
-align-items: center;
+  border: 2px solid #d1d1d1;
+  border-radius: 10px;
+  width: 90%;
+  margin: 20px auto;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
 }
 
-.facebook-image,
-.instagram-image,
-.twitter-image {
-   width: 90px;
-   padding: 20px;
-}
-
+/* line 80, ../../../../Code/Project7/scss/base/_typography.scss */
 #facebook-text-header,
 #instagram-text-header,
-#twitter-text-header
- {
-    font-size: 1.25rem;
-    color: #7477bf;
+#twitter-text-header {
+  font-size: 1.25rem;
+  color: #7477bf;
 }
 
+/* line 88, ../../../../Code/Project7/scss/base/_typography.scss */
 #facebook-text-number,
 #instagram-text-number,
 #twitter-text-number {
-    font-size: 2rem;
-    color: #777777;
+  font-size: 2rem;
+  color: #777777;
 }
+
+/* line 1, ../../../../Code/Project7/scss/components/_navigation.scss */
+nav {
+  grid-area: nav;
+  background-color: #4d4c72;
+  display: flex;
+  max-height: 80px;
+}
+
+/* line 8, ../../../../Code/Project7/scss/components/_navigation.scss */
+.navigation,
+a {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* line 16, ../../../../Code/Project7/scss/components/_navigation.scss */
+.navigation {
+  align-items: center;
+  padding: 25px;
+}
+
+/* line 1, ../../../../Code/Project7/scss/components/_grid.scss */
+main {
+  grid-area: main;
+}
+
+/* line 5, ../../../../Code/Project7/scss/components/_grid.scss */
+.grid-container {
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-template-areas: "header header" "nav nav" "main main";
+}
+
+/* line 14, ../../../../Code/Project7/scss/components/_grid.scss */
+body {
+  display: grid;
+}
+
+/* line 1, ../../../../Code/Project7/scss/components/_images.scss */
+#vcImage,
+#dbImage,
+#dwImage,
+#doImage {
+  border-radius: 50%;
+}
+
+/* ===================================== */
+/*              Social Stats             */
+/* ===================================== */
+/* line 13, ../../../../Code/Project7/scss/components/_images.scss */
+.facebook-image,
+.instagram-image,
+.twitter-image {
+  width: 90px;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
