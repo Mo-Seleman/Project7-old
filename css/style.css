@@ -79,6 +79,7 @@ a {
 /* ===================================== */
 
 body {
+    display: grid;
     font-family: 'Anonymous Pro', monospace;
 }
 
