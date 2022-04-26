@@ -5,6 +5,10 @@
     font-family: 'Anonymous Pro', monospace;
 }
 
+a {
+    text-decoration: none;
+    color: $dark-purple;
+}
 header {
     grid-area: header;
     width: 100%;
@@ -59,7 +63,7 @@ hr {
 .message-user,
 .settings {
     border-top: 1px solid black;
-    padding: 30px;
+    padding: 10px;
 }
 
 /* ===================================== */
@@ -91,3 +95,16 @@ align-items: center;
     font-size: 2rem;
     color: $grey-text;
 }
+
+/* ===================================== */
+/*              New Members              */
+/* ===================================== */
+
+.Victoria-Chambers,
+.Dale-Byrd,
+.Dawn-Wood,
+.Dan-Oliver
+ {
+    text-align: center;
+    line-height: 1.2;
+ }

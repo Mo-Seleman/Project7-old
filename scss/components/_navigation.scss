@@ -5,15 +5,17 @@ nav {
     max-height: 80px;
 }
 
-.navigation,
+.navigation, 
 a {
     display: flex;
     flex-grow: 1;
     justify-content: center;
-    padding: 20px;
 }
 
 .navigation {
 align-items: center;
 padding: 25px;
+    a {
+        padding: 15px;
+    }
 }

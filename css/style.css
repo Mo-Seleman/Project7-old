@@ -7,6 +7,12 @@
 }
 
 /* line 8, ../../../../Code/Project7/scss/base/_typography.scss */
+a {
+  text-decoration: none;
+  color: #7477bf;
+}
+
+/* line 12, ../../../../Code/Project7/scss/base/_typography.scss */
 header {
   grid-area: header;
   width: 100%;
@@ -16,45 +22,45 @@ header {
   display: grid;
 }
 
-/* line 17, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 21, ../../../../Code/Project7/scss/base/_typography.scss */
 .header-container {
   display: grid;
   grid-template-columns: 3fr 1fr 1fr 2fr;
   align-items: center;
 }
 
-/* line 23, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 27, ../../../../Code/Project7/scss/base/_typography.scss */
 header span {
   font-weight: 100;
 }
 
-/* line 27, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 31, ../../../../Code/Project7/scss/base/_typography.scss */
 #bellIcon {
   width: 25px;
   justify-self: center;
 }
 
-/* line 32, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 36, ../../../../Code/Project7/scss/base/_typography.scss */
 #header-img {
   width: 40px;
   border-radius: 50%;
   justify-self: center;
 }
 
-/* line 38, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 42, ../../../../Code/Project7/scss/base/_typography.scss */
 .studentName,
 header h1 {
   justify-self: center;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 grey, 1px 1px 0 grey;
 }
 
-/* line 44, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 48, ../../../../Code/Project7/scss/base/_typography.scss */
 .studentName {
   justify-self: center;
   font-size: 13.5px;
 }
 
-/* line 49, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 53, ../../../../Code/Project7/scss/base/_typography.scss */
 hr {
   margin: 25px;
 }
@@ -62,19 +68,19 @@ hr {
 /* ===================================== */
 /*              Body                     */
 /* ===================================== */
-/* line 57, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 61, ../../../../Code/Project7/scss/base/_typography.scss */
 .new-members,
 .recent-activity,
 .message-user,
 .settings {
   border-top: 1px solid black;
-  padding: 30px;
+  padding: 10px;
 }
 
 /* ===================================== */
 /*              Social Stats             */
 /* ===================================== */
-/* line 68, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 72, ../../../../Code/Project7/scss/base/_typography.scss */
 .facebook-stats,
 .instagram-stats,
 .twitter-stats {
@@ -87,7 +93,7 @@ hr {
   align-items: center;
 }
 
-/* line 80, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 84, ../../../../Code/Project7/scss/base/_typography.scss */
 #facebook-text-header,
 #instagram-text-header,
 #twitter-text-header {
@@ -95,12 +101,24 @@ hr {
   color: #7477bf;
 }
 
-/* line 88, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 92, ../../../../Code/Project7/scss/base/_typography.scss */
 #facebook-text-number,
 #instagram-text-number,
 #twitter-text-number {
   font-size: 2rem;
   color: #777777;
+}
+
+/* ===================================== */
+/*              New Members              */
+/* ===================================== */
+/* line 103, ../../../../Code/Project7/scss/base/_typography.scss */
+.Victoria-Chambers,
+.Dale-Byrd,
+.Dawn-Wood,
+.Dan-Oliver {
+  text-align: center;
+  line-height: 1.2;
 }
 
 /* line 1, ../../../../Code/Project7/scss/components/_navigation.scss */
@@ -117,13 +135,17 @@ a {
   display: flex;
   flex-grow: 1;
   justify-content: center;
-  padding: 20px;
 }
 
-/* line 16, ../../../../Code/Project7/scss/components/_navigation.scss */
+/* line 15, ../../../../Code/Project7/scss/components/_navigation.scss */
 .navigation {
   align-items: center;
   padding: 25px;
+}
+
+/* line 18, ../../../../Code/Project7/scss/components/_navigation.scss */
+.navigation a {
+  padding: 15px;
 }
 
 /* line 1, ../../../../Code/Project7/scss/components/_grid.scss */
