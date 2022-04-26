@@ -179,32 +179,33 @@
 <section class="message-user">
         <h3>MESSAGE USER</h3>
     <form action="">
-        <input type="text" name="" id="" placeholder="Search for User">
-        <textarea name="" id="" cols="30" rows="10" placeholder="Message for User"></textarea>
-        <button type="submit"></button>
+        <input type="text" name="" id="message-user-search" placeholder="Search for User">
+        <textarea name="" id="message-user-message" cols="30" rows="10" placeholder="Message for User"></textarea>
+        <button type="submit" id="message-user-button">SEND</button>
     </form>
 </section>
 
 <section class="settings">
     <h3>SETTINGS</h3>
+    <div class="send-email-notifications">
     <label class="switch-light switch-ios" onclick="">
         <input type="checkbox">
         <strong>
           Send Email Notifications
         </strong>
-        <span>
+        <span class="settings-slider">
           <span>Off</span>
           <span>On</span>
           <a></a>
         </span>
       </label>
-
+    </div>
       <label class="switch-light switch-ios" onclick="">
         <input type="checkbox">
         <strong>
           Wireless
         </strong>
-        <span>
+        <span class="settings-slider">
           <span>Off</span>
           <span>On</span>
           <a></a>

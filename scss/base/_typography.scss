@@ -62,7 +62,7 @@ hr {
 .recent-activity,
 .message-user,
 .settings {
-    border-top: 1px solid black;
+    border-top: 1px solid #cccccc;
     padding: 10px;
 }
 
@@ -97,7 +97,7 @@ align-items: center;
 }
 
 /* ===================================== */
-/*              New Members              */
+/*      New Members/Recent Activity      */
 /* ===================================== */
 
 .styleTag
@@ -110,6 +110,3 @@ align-items: center;
     margin-bottom: 20px;
  }
 
- /* ==================================== */
-/*               Recent Activity         */
-/* ===================================== */
