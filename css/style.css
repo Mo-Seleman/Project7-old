@@ -113,14 +113,19 @@ hr {
 /*              New Members              */
 /* ===================================== */
 /* line 103, ../../../../Code/Project7/scss/base/_typography.scss */
-.Victoria-Chambers,
-.Dale-Byrd,
-.Dawn-Wood,
-.Dan-Oliver {
+.styleTag {
   text-align: center;
-  line-height: 1.2;
 }
 
+/* line 108, ../../../../Code/Project7/scss/base/_typography.scss */
+#new-members-header,
+#recent-activity-header {
+  margin-bottom: 20px;
+}
+
+/* ==================================== */
+/*               Recent Activity         */
+/* ===================================== */
 /* line 1, ../../../../Code/Project7/scss/components/_navigation.scss */
 nav {
   grid-area: nav;
@@ -171,12 +176,13 @@ body {
 #dwImage,
 #doImage {
   border-radius: 50%;
+  width: 80px;
 }
 
 /* ===================================== */
 /*              Social Stats             */
 /* ===================================== */
-/* line 13, ../../../../Code/Project7/scss/components/_images.scss */
+/* line 14, ../../../../Code/Project7/scss/components/_images.scss */
 .facebook-image,
 .instagram-image,
 .twitter-image {

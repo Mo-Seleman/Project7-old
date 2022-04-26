@@ -100,11 +100,16 @@ align-items: center;
 /*              New Members              */
 /* ===================================== */
 
-.Victoria-Chambers,
-.Dale-Byrd,
-.Dawn-Wood,
-.Dan-Oliver
+.styleTag
  {
     text-align: center;
-    line-height: 1.2;
  }
+
+ #new-members-header,
+ #recent-activity-header  {
+    margin-bottom: 20px;
+ }
+
+ /* ==================================== */
+/*               Recent Activity         */
+/* ===================================== */
