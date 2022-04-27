@@ -187,10 +187,9 @@
 
 <section class="settings">
     <h3>SETTINGS</h3>
-    <div class="send-email-notifications">
     <label class="switch-light switch-ios" onclick="">
         <input type="checkbox">
-        <strong>
+        <strong id="send-email-notifactions-header">
           Send Email Notifications
         </strong>
         <span class="settings-slider">
@@ -199,11 +198,10 @@
           <a></a>
         </span>
       </label>
-    </div>
       <label class="switch-light switch-ios" onclick="">
         <input type="checkbox">
-        <strong>
-          Wireless
+        <strong id="set-profile-to-public-toggle">
+          Set Profile to Public
         </strong>
         <span class="settings-slider">
           <span>Off</span>
@@ -211,13 +209,11 @@
           <a></a>
         </span>
       </label>
-
-    <label for="Timezones">Select Timezone</label>
-    <select name="Timezones" id="Timezones" >
-        <option value=""></option>
+    <select name="Timezones" id="Timezones">
+        <option value="">Select Timezones</option>
     </select><br>
-    <input type="button" value="SAVE">
-    <input type="button" value="CANCEL">
+    <input id="save-button" type="button" value="SAVE">
+    <input id="cancel-button" type="button" value="CANCEL">
    </section>
   </main>
  </body>

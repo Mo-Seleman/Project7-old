@@ -9,3 +9,21 @@
     background-color: $dark-purple;
     color: white;
 }
+
+#save-button,
+#cancel-button {
+    width: 145px;
+    height: 40px;
+    border: 2px solid #d1d1d1;
+    border-radius: 10px;
+}
+
+#save-button{
+    background-color: $dark-purple;
+    color: white;
+}
+
+#cancel-button {
+    background-color: #999999;
+    color: white;
+}
