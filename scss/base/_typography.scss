@@ -9,10 +9,15 @@ a {
     text-decoration: none;
     color: $dark-purple;
 }
+
+ul {
+    list-style: none
+}
+
 header {
     grid-area: header;
     width: 100%;
-    height: 65px;
+    height: 60px;
     background-color: $dark-purple;
     color: white;
     display: grid;
@@ -39,7 +44,6 @@ header span {
     justify-self: center;
 }
 
-.studentName,
 header h1 {
     justify-self: center;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 grey, 1px 1px 0 grey;
@@ -54,9 +58,29 @@ hr {
     margin: 25px;
 }
 
-/* ===================================== */
-/*              Body                     */
-/* ===================================== */
+/* ================================================================ */
+/*                               Body                               */
+/* ================================================================ */
+
+.headline {
+    padding: 10px
+}
+
+.traffic {
+ padding: 10px;
+}
+
+.traffic-nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+  :first-child {
+        background-color: #81c98f;
+        color: white;
+        border-radius: 30px;
+    }
+}
+
 
 .new-members,
 .recent-activity,

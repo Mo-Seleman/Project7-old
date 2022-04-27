@@ -23,6 +23,10 @@
 /*             Settings              */
 /* ================================= */
 
+.settings {
+    padding-bottom: 20px;
+}
+
 #set-profile-to-public-toggle {
     padding-right: 26px;
 }
@@ -34,5 +38,6 @@
 #Timezones {
     @include inputStyle;
     margin: 25px 0 15px 0;
+    padding-left: 10px;
 }
 
