@@ -9,10 +9,14 @@
     background-color: $dark-purple;
     color: white;
 }
+.settings-buttons {
+    display: flex;
+    justify-content: space-between;
+}
 
 #save-button,
 #cancel-button {
-    width: 145px;
+    width: 48%;
     height: 40px;
     border: 2px solid #d1d1d1;
     border-radius: 10px;

@@ -179,22 +179,28 @@ hr {
   color: white;
 }
 
-/* line 13, ../../../../Code/Project7/scss/components/_buttons.scss */
+/* line 12, ../../../../Code/Project7/scss/components/_buttons.scss */
+.settings-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 17, ../../../../Code/Project7/scss/components/_buttons.scss */
 #save-button,
 #cancel-button {
-  width: 145px;
+  width: 48%;
   height: 40px;
   border: 2px solid #d1d1d1;
   border-radius: 10px;
 }
 
-/* line 21, ../../../../Code/Project7/scss/components/_buttons.scss */
+/* line 25, ../../../../Code/Project7/scss/components/_buttons.scss */
 #save-button {
   background-color: #7477bf;
   color: white;
 }
 
-/* line 26, ../../../../Code/Project7/scss/components/_buttons.scss */
+/* line 30, ../../../../Code/Project7/scss/components/_buttons.scss */
 #cancel-button {
   background-color: #999999;
   color: white;
@@ -264,22 +270,21 @@ nav {
 }
 
 /* line 8, ../../../../Code/Project7/scss/components/_navigation.scss */
-.navigation,
-a {
+.navigation {
   display: flex;
   flex-grow: 1;
   justify-content: center;
-}
-
-/* line 15, ../../../../Code/Project7/scss/components/_navigation.scss */
-.navigation {
   align-items: center;
   padding: 25px;
 }
 
-/* line 18, ../../../../Code/Project7/scss/components/_navigation.scss */
+/* line 14, ../../../../Code/Project7/scss/components/_navigation.scss */
 .navigation a {
+  display: flex;
+  flex-grow: 1;
   padding: 15px;
+  height: 4rem;
+  justify-content: center;
 }
 
 /* line 2, ../../../../Code/Project7/scss/components/_grid.scss */
