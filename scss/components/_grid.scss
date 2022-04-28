@@ -1,3 +1,8 @@
+
+body {
+    display: grid;
+}
+
 main {
     grid-area: main;
    }
@@ -9,8 +14,4 @@ main {
     "header header"
     "nav nav"
     "main main";
-}
-
-body {
-    display: grid;
 }
