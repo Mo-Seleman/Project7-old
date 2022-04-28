@@ -1,12 +1,32 @@
-// @media (min-width: 768px) {
-//     .grid-container {
-//         display: grid;
-//         grid-template-columns: 55px 1fr;
-//         grid-template-rows: auto;
-//         grid-template-areas: 
-//         "header header"
-//         "nav main"
-//         "nav main"
-//         ;
-//     }
+@media (min-width: 768px) {
+    body {
+        display: grid;
+    }
+  .grid-container {
+        grid-template-columns: 150px 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "header header"
+        "nav main"
+        ;
+ }
+ .nav-container {
+     display: grid;
+     grid-column: 1/2;
+     grid-row: 1/3;
+ }
+}
+
+// nav {
+//     display: table;
 // }
+//  .navigation {
+//      display: grid;
+//     grid-column: 1/2;
+//     grid-row: 2/3;
+//     nav a {
+//         display: grid;
+//         grid-column: 1/2;
+//         grid-row: 2/3;
+//   }
+//  } 

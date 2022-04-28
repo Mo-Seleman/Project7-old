@@ -304,6 +304,25 @@ main {
   grid-template-areas: "header header" "nav nav" "main main";
 }
 
+@media (min-width: 768px) {
+  /* line 2, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  body {
+    display: grid;
+  }
+  /* line 5, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .grid-container {
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "header header" "nav main";
+  }
+  /* line 13, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .nav-container {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
+}
+
 /* line 1, ../../../../Code/Project7/scss/components/_images.scss */
 #vcImage,
 #dbImage,
