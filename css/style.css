@@ -306,51 +306,93 @@ main {
 
 @media (min-width: 768px) {
   /* line 2, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  h3 {
+    padding-left: 15px;
+  }
+  /* line 5, ../../../../Code/Project7/scss/components/_media-queries.scss */
   body {
     display: grid;
   }
-  /* line 5, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 8, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .grid-container {
     grid-template-columns: auto 1fr;
     grid-template-rows: auto;
     grid-template-areas: "header header" "nav main";
   }
-  /* line 12, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 15, ../../../../Code/Project7/scss/components/_media-queries.scss */
   header {
     display: flex;
   }
-  /* line 15, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 17, ../../../../Code/Project7/scss/components/_media-queries.scss */
   header h1 {
     padding-left: 0.938rem;
     padding-right: 26.25rem;
   }
-  /* line 20, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 22, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .nav-container {
     grid-row-start: 2;
     grid-column-start: 1;
   }
-  /* line 24, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 26, ../../../../Code/Project7/scss/components/_media-queries.scss */
   nav {
     display: table-cell;
-    height: 187.5rem;
+    height: 169.8rem;
   }
-  /* line 28, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 30, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .navigation {
     display: inline;
   }
-  /* line 31, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 33, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .light-grey-tab {
     width: 80%;
   }
-  /* line 34, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 36, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .traffic-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  /* line 39, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 41, ../../../../Code/Project7/scss/components/_media-queries.scss */
   li {
     padding: 10px;
+  }
+  /* line 44, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #traffic-header {
+    padding-left: 10px;
+  }
+  /* line 47, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .social-stats {
+    display: flex;
+  }
+  /* line 50, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .facebook-stats {
+    margin: 10px 5px 10px 10px;
+  }
+  /* line 53, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .instagram-stats {
+    margin: 10px 5px 10px 5px;
+  }
+  /* line 56, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .twitter-stats {
+    margin: 10px 10px 10px 5px;
+  }
+  /* line 59, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .new-members {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 62, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .new-members img {
+    padding-right: 15px;
+  }
+  /* line 66, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #Victoria-Chambers,
+  #Dale-Byrd,
+  #Dawn-Wood,
+  #Dan-Oliver {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
   }
 }
 

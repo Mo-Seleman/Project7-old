@@ -1,4 +1,7 @@
 @media (min-width: 768px) {
+  h3 {
+    padding-left: 15px;
+  }
   body {
     display: grid;
   }
@@ -11,7 +14,6 @@
   }
   header {
     display: flex;
-
     h1 {
       padding-left: 0.938rem;
       padding-right: 26.25rem;
@@ -23,13 +25,13 @@
   }
   nav {
     display: table-cell;
-    height: 187.5rem;
+    height: 169.8rem;
   }
   .navigation {
     display: inline;
   }
   .light-grey-tab {
-      width: 80%;
+    width: 80%;
   }
   .traffic-info {
     display: flex;
@@ -39,18 +41,35 @@
   li {
     padding: 10px;
   }
-}
+  #traffic-header {
+    padding-left: 10px;
+  }
+  .social-stats {
+    display: flex;
+  }
+  .facebook-stats {
+    margin: 10px 5px 10px 10px;
+  }
+  .instagram-stats {
+    margin: 10px 5px 10px 5px;
+  }
+  .twitter-stats {
+    margin: 10px 10px 10px 5px;
+  }
+  .new-members {
+    display: flex;
+    flex-direction: column;
+    img {
+      padding-right: 15px;
+    }
+  }
+  #Victoria-Chambers,
+  #Dale-Byrd,
+  #Dawn-Wood,
+  #Dan-Oliver {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
 
-// nav {
-//     display: table;
-// }
-//  .navigation {
-//      display: grid;
-//     grid-column: 1/2;
-//     grid-row: 2/3;
-//     nav a {
-//         display: grid;
-//         grid-column: 1/2;
-//         grid-row: 2/3;
-//   }
-//  }
+}
