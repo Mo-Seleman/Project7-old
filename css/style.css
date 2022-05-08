@@ -315,11 +315,15 @@ main {
     grid-template-rows: auto;
     grid-template-areas: "header header" "nav main";
   }
-  /* line 13, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 14, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  nav {
+    display: block;
+    max-width: 100%;
+  }
+  /* line 18, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .nav-container {
-    display: grid;
-    grid-column: 1/2;
-    grid-row: 1/3;
+    grid-row-start: 2;
+    grid-column-start: 1;
   }
 }
 
