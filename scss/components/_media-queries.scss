@@ -31,6 +31,14 @@
   .light-grey-tab {
       width: 80%;
   }
+  .traffic-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  li {
+    padding: 10px;
+  }
 }
 
 // nav {
