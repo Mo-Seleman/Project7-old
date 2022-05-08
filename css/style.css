@@ -311,19 +311,36 @@ main {
   }
   /* line 5, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .grid-container {
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: auto 1fr;
     grid-template-rows: auto;
     grid-template-areas: "header header" "nav main";
   }
-  /* line 14, ../../../../Code/Project7/scss/components/_media-queries.scss */
-  nav {
-    display: block;
-    max-width: 100%;
+  /* line 12, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  header {
+    display: flex;
   }
-  /* line 18, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 15, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  header h1 {
+    padding-left: 0.938rem;
+    padding-right: 26.25rem;
+  }
+  /* line 20, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .nav-container {
     grid-row-start: 2;
     grid-column-start: 1;
+  }
+  /* line 24, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  nav {
+    display: table-cell;
+    height: 187.5rem;
+  }
+  /* line 28, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .navigation {
+    display: inline;
+  }
+  /* line 31, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .light-grey-tab {
+    width: 80%;
   }
 }
 
