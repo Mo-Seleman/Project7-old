@@ -175,6 +175,19 @@ hr {
 }
 
 /* ===================================== */
+/*                Settings               */
+/* ===================================== */
+/* line 162, ../../../../Code/Project7/scss/base/_typography.scss */
+#send-email-notifactions-header {
+  padding-right: 15px;
+}
+
+/* line 165, ../../../../Code/Project7/scss/base/_typography.scss */
+#set-profile-to-public-toggle {
+  padding-right: 40px;
+}
+
+/* ===================================== */
 /*             Message User              */
 /* ===================================== */
 /* line 4, ../../../../Code/Project7/scss/components/_buttons.scss */
@@ -249,16 +262,11 @@ hr {
 }
 
 /* line 30, ../../../../Code/Project7/scss/components/_forms.scss */
-#set-profile-to-public-toggle {
-  padding-right: 26px;
-}
-
-/* line 34, ../../../../Code/Project7/scss/components/_forms.scss */
 .switch-light {
   padding: 10px 0;
 }
 
-/* line 38, ../../../../Code/Project7/scss/components/_forms.scss */
+/* line 34, ../../../../Code/Project7/scss/components/_forms.scss */
 #Timezones {
   border: 2px solid #d1d1d1;
   border-radius: 10px;
@@ -314,86 +322,93 @@ main {
 
 @media (min-width: 768px) {
   /* line 2, ../../../../Code/Project7/scss/components/_media-queries.scss */
-  h3 {
-    padding-left: 15px;
+  header {
+    height: 80px;
   }
   /* line 5, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  h3 {
+    padding-left: 5px;
+  }
+  /* line 8, ../../../../Code/Project7/scss/components/_media-queries.scss */
   body {
     display: grid;
   }
-  /* line 8, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 11, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .grid-container {
     grid-template-columns: auto 1fr;
     grid-template-rows: auto;
     grid-template-areas: "header header" "nav main";
   }
-  /* line 15, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 18, ../../../../Code/Project7/scss/components/_media-queries.scss */
   header {
     display: flex;
   }
-  /* line 17, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 20, ../../../../Code/Project7/scss/components/_media-queries.scss */
   header h1 {
     padding-left: 0.938rem;
     padding-right: 26.25rem;
   }
-  /* line 22, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 25, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .nav-container {
     grid-row-start: 2;
     grid-column-start: 1;
   }
-  /* line 26, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 29, ../../../../Code/Project7/scss/components/_media-queries.scss */
   nav {
     display: table-cell;
-    height: 140.2rem;
+    height: 141.2rem;
+    width: 90px;
   }
-  /* line 30, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 34, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .navigation {
     display: inline;
   }
-  /* line 33, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 37, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .light-grey-tab {
     width: 80%;
   }
-  /* line 36, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 40, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .traffic-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  /* line 41, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 45, ../../../../Code/Project7/scss/components/_media-queries.scss */
   li {
     padding: 10px;
   }
-  /* line 44, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 48, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #traffic-header {
     padding-left: 10px;
   }
-  /* line 47, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 51, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .social-stats {
     display: flex;
   }
-  /* line 50, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 54, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .facebook-stats {
     margin: 10px 5px 10px 10px;
   }
-  /* line 53, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 57, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .instagram-stats {
     margin: 10px 5px 10px 5px;
   }
-  /* line 56, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 60, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .twitter-stats {
     margin: 10px 10px 10px 5px;
   }
-  /* line 59, ../../../../Code/Project7/scss/components/_media-queries.scss */
-  .new-members, .recent-activity {
+  /* line 63, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .new-members,
+  .recent-activity {
     display: flex;
     flex-direction: column;
   }
-  /* line 62, ../../../../Code/Project7/scss/components/_media-queries.scss */
-  .new-members img, .recent-activity img {
+  /* line 67, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .new-members img,
+  .recent-activity img {
     padding-right: 15px;
   }
-  /* line 66, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 71, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Victoria-Chambers,
   #Dale-Byrd,
   #Dawn-Wood,
@@ -407,40 +422,54 @@ main {
     align-items: center;
     flex-wrap: wrap;
   }
-  /* line 81, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 85, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Victoria-Chambers p,
   #Dale-Byrd p,
   #Dawn-Wood p,
   #Dan-Oliver p {
     text-align: left;
   }
-  /* line 88, ../../../../Code/Project7/scss/components/_media-queries.scss */
-  #Victoria-Chambers a {
-    padding-right: 15.625rem;
-  }
   /* line 92, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #Victoria-Chambers a {
+    padding-right: 13.625rem;
+  }
+  /* line 96, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Dale-Byrd a,
   #Dawn-Wood a {
-    padding-right: 20rem;
-  }
-  /* line 97, ../../../../Code/Project7/scss/components/_media-queries.scss */
-  #Dan-Oliver a {
-    padding-right: 19.375rem;
+    padding-right: 18rem;
   }
   /* line 101, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #Dan-Oliver a {
+    padding-right: 17.375rem;
+  }
+  /* line 105, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #Dan-Oliver {
+    margin-bottom: 15px;
+  }
+  /* line 109, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Victoria-Chambers a,
   #Dale-Byrd a,
   #Dawn-Wood a,
   #Dan-Oliver a {
     display: inline;
   }
-  /* line 108, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 116, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  hr {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* line 121, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .recent-activity p {
     text-align: left;
   }
-  /* line 111, ../../../../Code/Project7/scss/components/_media-queries.scss */
-  .switch-light {
-    justify-content: flex-start;
+  /* line 125, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #send-email-notifactions-header,
+  #set-profile-to-public-toggle {
+    padding-left: 5px;
+  }
+  /* line 129, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .settings-slider {
+    max-width: 100px;
   }
 }
 
