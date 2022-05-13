@@ -25,7 +25,7 @@
   }
   nav {
     display: table-cell;
-    height: 169.8rem;
+    height: 140.2rem;
   }
   .navigation {
     display: inline;
@@ -56,7 +56,7 @@
   .twitter-stats {
     margin: 10px 10px 10px 5px;
   }
-  .new-members {
+  .new-members, .recent-activity {
     display: flex;
     flex-direction: column;
     img {
@@ -66,10 +66,49 @@
   #Victoria-Chambers,
   #Dale-Byrd,
   #Dawn-Wood,
-  #Dan-Oliver {
+  #Dan-Oliver,
+  #Victoria-Chambers-recent-activity,
+  #Dale-Byrd-recent-activity,
+  #Dawn-Wood-recent-activity,
+  #Dan-Oliver-recent-activity
+   {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
   }
 
+  #Victoria-Chambers p,
+  #Dale-Byrd p,
+  #Dawn-Wood p,
+  #Dan-Oliver p {
+    text-align: left;
+  }
+
+  #Victoria-Chambers a {
+    padding-right: 15.625rem;
+  }
+
+  #Dale-Byrd a,
+  #Dawn-Wood a {
+    padding-right: 20rem;
+  }
+
+  #Dan-Oliver a {
+    padding-right: 19.375rem;
+  }
+
+  #Victoria-Chambers a,
+  #Dale-Byrd a,
+  #Dawn-Wood a,
+  #Dan-Oliver a {
+    display: inline;
+  }
+
+  .recent-activity p {
+    text-align: left;
+  }
+  .switch-light {
+    justify-content: flex-start;
+  }
 }

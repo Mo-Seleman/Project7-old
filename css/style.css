@@ -163,7 +163,15 @@ hr {
 /* line 145, ../../../../Code/Project7/scss/base/_typography.scss */
 #new-members-header,
 #recent-activity-header {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+
+/* line 150, ../../../../Code/Project7/scss/base/_typography.scss */
+#Victoria-Chambers a,
+#Dale-Byrd a,
+#Dawn-Wood a,
+#Dan-Oliver a {
+  display: block;
 }
 
 /* ===================================== */
@@ -336,7 +344,7 @@ main {
   /* line 26, ../../../../Code/Project7/scss/components/_media-queries.scss */
   nav {
     display: table-cell;
-    height: 169.8rem;
+    height: 140.2rem;
   }
   /* line 30, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .navigation {
@@ -377,22 +385,62 @@ main {
     margin: 10px 10px 10px 5px;
   }
   /* line 59, ../../../../Code/Project7/scss/components/_media-queries.scss */
-  .new-members {
+  .new-members, .recent-activity {
     display: flex;
     flex-direction: column;
   }
   /* line 62, ../../../../Code/Project7/scss/components/_media-queries.scss */
-  .new-members img {
+  .new-members img, .recent-activity img {
     padding-right: 15px;
   }
   /* line 66, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Victoria-Chambers,
   #Dale-Byrd,
   #Dawn-Wood,
-  #Dan-Oliver {
+  #Dan-Oliver,
+  #Victoria-Chambers-recent-activity,
+  #Dale-Byrd-recent-activity,
+  #Dawn-Wood-recent-activity,
+  #Dan-Oliver-recent-activity {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
+  }
+  /* line 81, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #Victoria-Chambers p,
+  #Dale-Byrd p,
+  #Dawn-Wood p,
+  #Dan-Oliver p {
+    text-align: left;
+  }
+  /* line 88, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #Victoria-Chambers a {
+    padding-right: 15.625rem;
+  }
+  /* line 92, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #Dale-Byrd a,
+  #Dawn-Wood a {
+    padding-right: 20rem;
+  }
+  /* line 97, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #Dan-Oliver a {
+    padding-right: 19.375rem;
+  }
+  /* line 101, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #Victoria-Chambers a,
+  #Dale-Byrd a,
+  #Dawn-Wood a,
+  #Dan-Oliver a {
+    display: inline;
+  }
+  /* line 108, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .recent-activity p {
+    text-align: left;
+  }
+  /* line 111, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .switch-light {
+    justify-content: flex-start;
   }
 }
 
