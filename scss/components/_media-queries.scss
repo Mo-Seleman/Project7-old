@@ -157,10 +157,53 @@
    padding: 0;
    margin: 0 auto;
  }
+  .new-members,
+  .recent-activity,
+  .message-user,
+  .settings {
+  width: 50%;
+  float: left;
+  }
+  #Victoria-Chambers,
+  #Dale-Byrd,
+  #Dawn-Wood,
+  #Dan-Oliver,
+  #Victoria-Chambers-recent-activity,
+  #Dale-Byrd-recent-activity,
+  #Dawn-Wood-recent-activity,
+  #Dan-Oliver-recent-activity {
+    flex-wrap: nowrap;
+  }
+  .new-members {
+    border-right: 1px solid $grey-text;
+    border-bottom: 1px solid $grey-text;
+  }
+  .recent-activity {
+    border-bottom: 1px solid $grey-text;
+  }
+  #Victoria-Chambers a {
+    padding-right: 0.625rem;
+  }
+  #Dale-Byrd a,
+  #Dawn-Wood a {
+    padding-right: 5rem;
+  }
+  #Dan-Oliver a {
+    padding-right: 4.375rem;
+  }
+  #Dan-Oliver-recent-activity {
+    padding-bottom: 15px;
+  }
+  .message-user {
+    border-right: 1px solid $grey-text;
+  }
+  .settings {
+    height: 274px;
+  }
+  .settings-buttons {
+    margin-top: 9px;
+  }
+  nav {
+    height: 83.2rem;
+  }
 }
-
-// grid-template-columns: auto 1fr;
-//     grid-template-rows: auto;
-//     grid-template-areas:
-//       "header header"
-//       "nav main";

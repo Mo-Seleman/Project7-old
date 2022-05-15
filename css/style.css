@@ -505,6 +505,67 @@ main {
     padding: 0;
     margin: 0 auto;
   }
+  /* line 160, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .new-members,
+  .recent-activity,
+  .message-user,
+  .settings {
+    width: 50%;
+    float: left;
+  }
+  /* line 167, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #Victoria-Chambers,
+  #Dale-Byrd,
+  #Dawn-Wood,
+  #Dan-Oliver,
+  #Victoria-Chambers-recent-activity,
+  #Dale-Byrd-recent-activity,
+  #Dawn-Wood-recent-activity,
+  #Dan-Oliver-recent-activity {
+    flex-wrap: nowrap;
+  }
+  /* line 177, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .new-members {
+    border-right: 1px solid #777777;
+    border-bottom: 1px solid #777777;
+  }
+  /* line 181, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .recent-activity {
+    border-bottom: 1px solid #777777;
+  }
+  /* line 184, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #Victoria-Chambers a {
+    padding-right: 0.625rem;
+  }
+  /* line 187, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #Dale-Byrd a,
+  #Dawn-Wood a {
+    padding-right: 5rem;
+  }
+  /* line 191, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #Dan-Oliver a {
+    padding-right: 4.375rem;
+  }
+  /* line 194, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #Dan-Oliver-recent-activity {
+    padding-bottom: 15px;
+  }
+  /* line 197, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .message-user {
+    border-right: 1px solid #777777;
+  }
+  /* line 200, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .settings {
+    height: 274px;
+  }
+  /* line 203, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .settings-buttons {
+    margin-top: 9px;
+  }
+  /* line 206, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  nav {
+    height: 83.2rem;
+  }
 }
 
 /* line 1, ../../../../Code/Project7/scss/components/_images.scss */
