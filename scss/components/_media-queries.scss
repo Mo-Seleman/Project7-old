@@ -28,7 +28,7 @@
   }
   nav {
     display: table-cell;
-    height: 141.2rem;
+    height: 130.2rem;
     width: 90px;
   }
   .navigation {
@@ -47,6 +47,9 @@
   }
   #traffic-header {
     padding-left: 10px;
+  }
+  .traffic-nav{
+    padding-top: 0;
   }
   .social-stats {
     display: flex;
@@ -129,4 +132,35 @@
   .settings-slider {
     max-width: 100px;
   }
+  .traffic {
+    grid-area: traffic;
+  }
+  .daily-traffic {
+   grid-area: dailyTraffic;
+  }
+  .mobile-users {
+    grid-area: mobileUsers;
+  }
+  .daily-traffic,
+  .mobile-users {
+  width: 50%;
+  float: left;
+  }
 }
+
+
+@media (min-width: 1024px) {
+ .header-container h1 {
+   padding-right: 42.25rem;
+ }
+ .headline {
+   padding: 0;
+   margin: 0 auto;
+ }
+}
+
+// grid-template-columns: auto 1fr;
+//     grid-template-rows: auto;
+//     grid-template-areas:
+//       "header header"
+//       "nav main";
