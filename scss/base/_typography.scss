@@ -1,61 +1,62 @@
 * {
-    box-sizing: border-box; 
-    padding: 0;
-    margin: 0;
-    font-family: 'Anonymous Pro', monospace;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Anonymous Pro", monospace;
 }
 
 a {
-    text-decoration: none;
-    color: $dark-purple;
+  text-decoration: none;
+  color: $dark-purple;
 }
 
 ul {
-    list-style: none
+  list-style: none;
 }
 
 header {
-    grid-area: header;
-    width: 100%;
-    height: 60px;
-    background-color: $dark-purple;
-    color: white;
-    display: grid;
+  grid-area: header;
+  width: 100%;
+  height: 60px;
+  background-color: $dark-purple;
+  color: white;
+  display: grid;
 }
 
 .header-container {
-    display: grid;
-    grid-template-columns: 3fr 1fr 1fr 2fr;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 2fr;
+  align-items: center;
 }
 
 header span {
-    font-weight: 100;
+  font-weight: 100;
 }
 
 #bellIcon {
-    width: 25px;
-    justify-self: center;
+  width: 25px;
+  justify-self: center;
 }
 
 #header-img {
-    width: 40px;
-    border-radius: 50%;
-    justify-self: center;
+  width: 40px;
+  border-radius: 50%;
+  justify-self: center;
 }
 
 header h1 {
-    justify-self: center;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 grey, 1px 1px 0 grey;
+  justify-self: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 grey,
+    1px 1px 0 grey;
 }
 
 .studentName {
-    justify-self: center;
-    font-size: 13.5px;
+  justify-self: center;
+  font-size: 13.5px;
 }
 
 hr {
-    margin: 25px;
+  margin: 25px;
 }
 
 /* ================================================================ */
@@ -63,44 +64,58 @@ hr {
 /* ================================================================ */
 
 .main-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .headline {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 
 .light-grey-tab {
-    background-color: $grey-theme;
-    border: 1px solid #cfcfcf;
-    width: 57%;
-    height: 50px;
+  background-color: $grey-theme;
+  border: 1px solid #cfcfcf;
+  width: 57%;
+  height: 50px;
+}
+
+.alert {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $dark-purple;
+  color: white;
+  width: 90vw;
+  margin: 10px auto 0 auto;
+  padding: 8px;
+  border-radius: 7px;
+  p {
+    font-size: 13px;
+  }
 }
 
 .traffic {
- padding: 10px;
+  padding: 10px;
 }
 
 .traffic-nav {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
   :first-child {
-        background-color: #81c98f;
-        color: white;
-        border-radius: 30px;
-    }
+    background-color: #81c98f;
+    color: white;
+    border-radius: 30px;
+  }
 }
-
 
 .new-members,
 .recent-activity,
 .message-user,
 .settings {
-    border-top: 1px solid #cccccc;
-    padding: 10px;
+  border-top: 1px solid #cccccc;
+  padding: 10px;
 }
 
 /* ===================================== */
@@ -109,49 +124,46 @@ hr {
 .facebook-stats,
 .instagram-stats,
 .twitter-stats {
-border: 2px solid #d1d1d1;
-border-radius: 10px;
-width: 90%;
-margin: 20px auto;
-background-color: $grey-theme;
-display: flex;
-align-items: center;
+  border: 2px solid #d1d1d1;
+  border-radius: 10px;
+  width: 90%;
+  margin: 20px auto;
+  background-color: $grey-theme;
+  display: flex;
+  align-items: center;
 }
 
 #facebook-text-header,
 #instagram-text-header,
-#twitter-text-header
- {
-    font-size: 1.25rem;
-    color: $dark-purple;
+#twitter-text-header {
+  font-size: 1.25rem;
+  color: $dark-purple;
 }
 
 #facebook-text-number,
 #instagram-text-number,
 #twitter-text-number {
-    font-size: 2rem;
-    color: $grey-text;
+  font-size: 2rem;
+  color: $grey-text;
 }
 
 /* ===================================== */
 /*      New Members/Recent Activity      */
 /* ===================================== */
 
-.styleTag
- {
-    text-align: center;
- }
+.styleTag {
+  text-align: center;
+}
 
- #new-members-header,
- #recent-activity-header  {
-    margin-bottom: 15px;
- }
+#new-members-header,
+#recent-activity-header {
+  margin-bottom: 15px;
+}
 
- #Victoria-Chambers a,
- #Dale-Byrd a,
- #Dawn-Wood a,
- #Dan-Oliver a
-{
+#Victoria-Chambers a,
+#Dale-Byrd a,
+#Dawn-Wood a,
+#Dan-Oliver a {
   display: block;
 }
 
@@ -160,8 +172,8 @@ align-items: center;
 /* ===================================== */
 
 #send-email-notifactions-header {
-    padding-right: 15px;
+  padding-right: 15px;
 }
 #set-profile-to-public-toggle {
-    padding-right: 40px;
+  padding-right: 40px;
 }

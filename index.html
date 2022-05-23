@@ -10,6 +10,8 @@
     <title>WebApp</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/toggle-switch.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
 <body class="grid-container">
@@ -40,9 +42,10 @@
             <div class="light-grey-tab"></div>
             </div>
             
-        <div class="alert" id="alert-bar" >
-            <!-- alert banner -->
-        </div>
+      <div class="alert" id="alert-bar">
+       <p><strong>Alert:</strong> You have unread Messages</p>
+       <button class="fa fa-regular fa-xmark" id="alert-bar-x"></button>
+      </div>
 
 <section class="widgets">
     <div class="traffic">
@@ -60,7 +63,7 @@
                 <canvas id="traffic-chart"></canvas>
         </div>
     </div>
-    
+
     <section class="daily-traffic">
         <h3>DAILY TRAFFIC</h3>
         <div class="widget-container-daily-traffic">
@@ -207,5 +210,6 @@
     </div>
    </section>
   </main>
+  <script src="js/app.js"></script>
  </body>
 </html>

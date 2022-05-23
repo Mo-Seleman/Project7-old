@@ -51,6 +51,11 @@
   .traffic-nav{
     padding-top: 0;
   }
+  .daily-traffic,
+  .mobile-users {
+  width: 44.1vw;
+  float: left;
+  }
   .social-stats {
     display: flex;
   }
@@ -131,20 +136,6 @@
   }
   .settings-slider {
     max-width: 100px;
-  }
-  .traffic {
-    grid-area: traffic;
-  }
-  .daily-traffic {
-   grid-area: dailyTraffic;
-  }
-  .mobile-users {
-    grid-area: mobileUsers;
-  }
-  .daily-traffic,
-  .mobile-users {
-  width: 50%;
-  float: left;
   }
 }
 
