@@ -37,6 +37,12 @@
   .light-grey-tab {
     width: 80%;
   }
+  #alert-bar {
+    width: 85vw;
+    p {
+      font-size: 14px;
+    }
+  }
   .traffic-info {
     display: flex;
     justify-content: space-between;
@@ -48,13 +54,13 @@
   #traffic-header {
     padding-left: 10px;
   }
-  .traffic-nav{
+  .traffic-nav {
     padding-top: 0;
   }
   .daily-traffic,
   .mobile-users {
-  width: 44.1vw;
-  float: left;
+    width: 44.1vw;
+    float: left;
   }
   .social-stats {
     display: flex;
@@ -139,21 +145,27 @@
   }
 }
 
-
 @media (min-width: 1024px) {
- .header-container h1 {
-   padding-right: 42.25rem;
- }
- .headline {
-   padding: 0;
-   margin: 0 auto;
- }
+  .header-container h1 {
+    padding-right: 42.25rem;
+  }
+  .headline {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  #alert-bar {
+    width: 88vw;
+    p {
+      font-size: 15px;
+    }
+  }
   .new-members,
   .recent-activity,
   .message-user,
   .settings {
-  width: 50%;
-  float: left;
+    width: 50%;
+    float: left;
   }
   #Victoria-Chambers,
   #Dale-Byrd,
@@ -195,6 +207,6 @@
     margin-top: 9px;
   }
   nav {
-    height: 83.2rem;
+    height: 86.2rem;
   }
 }

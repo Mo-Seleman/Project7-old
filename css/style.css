@@ -398,57 +398,65 @@ main {
     width: 80%;
   }
   /* line 40, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #alert-bar {
+    width: 85vw;
+  }
+  /* line 42, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #alert-bar p {
+    font-size: 14px;
+  }
+  /* line 46, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .traffic-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  /* line 45, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 51, ../../../../Code/Project7/scss/components/_media-queries.scss */
   li {
     padding: 10px;
   }
-  /* line 48, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 54, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #traffic-header {
     padding-left: 10px;
   }
-  /* line 51, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 57, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .traffic-nav {
     padding-top: 0;
   }
-  /* line 54, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 60, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .daily-traffic,
   .mobile-users {
     width: 44.1vw;
     float: left;
   }
-  /* line 59, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 65, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .social-stats {
     display: flex;
   }
-  /* line 62, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 68, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .facebook-stats {
     margin: 10px 5px 10px 10px;
   }
-  /* line 65, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 71, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .instagram-stats {
     margin: 10px 5px 10px 5px;
   }
-  /* line 68, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 74, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .twitter-stats {
     margin: 10px 10px 10px 5px;
   }
-  /* line 71, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 77, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .new-members,
   .recent-activity {
     display: flex;
     flex-direction: column;
   }
-  /* line 75, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 81, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .new-members img,
   .recent-activity img {
     padding-right: 15px;
   }
-  /* line 79, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 85, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Victoria-Chambers,
   #Dale-Byrd,
   #Dawn-Wood,
@@ -462,68 +470,76 @@ main {
     align-items: center;
     flex-wrap: wrap;
   }
-  /* line 93, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 99, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Victoria-Chambers p,
   #Dale-Byrd p,
   #Dawn-Wood p,
   #Dan-Oliver p {
     text-align: left;
   }
-  /* line 100, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 106, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Victoria-Chambers a {
     padding-right: 13.625rem;
   }
-  /* line 104, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 110, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Dale-Byrd a,
   #Dawn-Wood a {
     padding-right: 18rem;
   }
-  /* line 109, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 115, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Dan-Oliver a {
     padding-right: 17.375rem;
   }
-  /* line 113, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 119, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Dan-Oliver {
     margin-bottom: 15px;
   }
-  /* line 117, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 123, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Victoria-Chambers a,
   #Dale-Byrd a,
   #Dawn-Wood a,
   #Dan-Oliver a {
     display: inline;
   }
-  /* line 124, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 130, ../../../../Code/Project7/scss/components/_media-queries.scss */
   hr {
     margin-left: 0;
     margin-right: 0;
   }
-  /* line 129, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 135, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .recent-activity p {
     text-align: left;
   }
-  /* line 133, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 139, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #send-email-notifactions-header,
   #set-profile-to-public-toggle {
     padding-left: 5px;
   }
-  /* line 137, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 143, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .settings-slider {
     max-width: 100px;
   }
 }
 
 @media (min-width: 1024px) {
-  /* line 144, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 149, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .header-container h1 {
     padding-right: 42.25rem;
   }
-  /* line 147, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 152, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .headline {
     padding: 0;
     margin: 0 auto;
   }
-  /* line 151, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 157, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #alert-bar {
+    width: 88vw;
+  }
+  /* line 159, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #alert-bar p {
+    font-size: 15px;
+  }
+  /* line 163, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .new-members,
   .recent-activity,
   .message-user,
@@ -531,7 +547,7 @@ main {
     width: 50%;
     float: left;
   }
-  /* line 158, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 170, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Victoria-Chambers,
   #Dale-Byrd,
   #Dawn-Wood,
@@ -542,47 +558,47 @@ main {
   #Dan-Oliver-recent-activity {
     flex-wrap: nowrap;
   }
-  /* line 168, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 180, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .new-members {
     border-right: 1px solid #777777;
     border-bottom: 1px solid #777777;
   }
-  /* line 172, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 184, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .recent-activity {
     border-bottom: 1px solid #777777;
   }
-  /* line 175, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 187, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Victoria-Chambers a {
     padding-right: 0.625rem;
   }
-  /* line 178, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 190, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Dale-Byrd a,
   #Dawn-Wood a {
     padding-right: 5rem;
   }
-  /* line 182, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 194, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Dan-Oliver a {
     padding-right: 4.375rem;
   }
-  /* line 185, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 197, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Dan-Oliver-recent-activity {
     padding-bottom: 15px;
   }
-  /* line 188, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 200, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .message-user {
     border-right: 1px solid #777777;
   }
-  /* line 191, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 203, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .settings {
     height: 274px;
   }
-  /* line 194, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 206, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .settings-buttons {
     margin-top: 9px;
   }
-  /* line 197, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 209, ../../../../Code/Project7/scss/components/_media-queries.scss */
   nav {
-    height: 83.2rem;
+    height: 86.2rem;
   }
 }
 
