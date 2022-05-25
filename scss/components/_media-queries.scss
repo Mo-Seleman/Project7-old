@@ -28,7 +28,7 @@
   }
   nav {
     display: table-cell;
-    height: 130.2rem;
+    height: 148rem;
     width: 90px;
   }
   .navigation {
@@ -57,13 +57,28 @@
   .traffic-nav {
     padding-top: 0;
   }
+  .widget-container-traffic {
+    width: 700px;
+    height: 300px;
+  }
   .daily-traffic,
   .mobile-users {
-    width: 44.1vw;
+    width: 46.8vw;
     float: left;
+  }
+  .widget-container-daily-traffic,
+  .widget-container-mobile-users {
+   width: 320px;
+   height: 200px;
+  }
+  .daily-traffic {
+    border-right: 1px solid #cccccc;
   }
   .social-stats {
     display: flex;
+  }
+  .socialStatsH3 {
+    margin-top: 250px;
   }
   .facebook-stats {
     margin: 10px 5px 10px 10px;
@@ -104,16 +119,16 @@
   }
 
   #Victoria-Chambers a {
-    padding-right: 13.625rem;
+    padding-right: 16.625rem;
   }
 
   #Dale-Byrd a,
   #Dawn-Wood a {
-    padding-right: 18rem;
+    padding-right: 21rem;
   }
 
   #Dan-Oliver a {
-    padding-right: 17.375rem;
+    padding-right: 20.375rem;
   }
 
   #Dan-Oliver {
