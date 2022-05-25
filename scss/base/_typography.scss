@@ -98,16 +98,30 @@ hr {
 .traffic {
   padding: 10px;
 }
+.traffic,
+.daily-traffic,
+.mobile-users {
+  border-bottom: 1px solid #cccccc;
+}
 
-.traffic-nav {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 15px;
-  :first-child {
-    background-color: #81c98f;
-    color: white;
-    border-radius: 30px;
+.daily-traffic {
+  padding: 0 10px 10px 10px;
+}
+
+.daily-traffic {
+  h3 {
+    padding: 10px 0;
   }
+}
+.mobile-users {
+  padding: 10px;
+  h3 {
+padding-bottom: 10px;
+
+  }
+}
+.socialStatsH3 {
+  padding: 10px 0 0 10px;
 }
 
 .new-members,
@@ -116,6 +130,21 @@ hr {
 .settings {
   border-top: 1px solid #cccccc;
   padding: 10px;
+}
+
+/* ============================================= */
+/*                  Charts                       */
+/* ============================================= */
+// .widget-container-daily-traffic {
+//   width: 300px;
+//   height: 150px;
+//   margin: auto;
+// }
+.widget-container-traffic,
+.widget-container-daily-traffic,
+.widget-container-mobile-users {
+  width: 300px;
+  height: 150px;
 }
 
 /* ===================================== */

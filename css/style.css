@@ -115,21 +115,39 @@ hr {
   padding: 10px;
 }
 
-/* line 102, ../../../../Code/Project7/scss/base/_typography.scss */
-.traffic-nav {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 15px;
+/* line 101, ../../../../Code/Project7/scss/base/_typography.scss */
+.traffic,
+.daily-traffic,
+.mobile-users {
+  border-bottom: 1px solid #cccccc;
 }
 
-/* line 106, ../../../../Code/Project7/scss/base/_typography.scss */
-.traffic-nav :first-child {
-  background-color: #81c98f;
-  color: white;
-  border-radius: 30px;
+/* line 107, ../../../../Code/Project7/scss/base/_typography.scss */
+.daily-traffic {
+  padding: 0 10px 10px 10px;
 }
 
-/* line 113, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 112, ../../../../Code/Project7/scss/base/_typography.scss */
+.daily-traffic h3 {
+  padding: 10px 0;
+}
+
+/* line 116, ../../../../Code/Project7/scss/base/_typography.scss */
+.mobile-users {
+  padding: 10px;
+}
+
+/* line 118, ../../../../Code/Project7/scss/base/_typography.scss */
+.mobile-users h3 {
+  padding-bottom: 10px;
+}
+
+/* line 123, ../../../../Code/Project7/scss/base/_typography.scss */
+.socialStatsH3 {
+  padding: 10px 0 0 10px;
+}
+
+/* line 127, ../../../../Code/Project7/scss/base/_typography.scss */
 .new-members,
 .recent-activity,
 .message-user,
@@ -138,10 +156,21 @@ hr {
   padding: 10px;
 }
 
+/* ============================================= */
+/*                  Charts                       */
+/* ============================================= */
+/* line 143, ../../../../Code/Project7/scss/base/_typography.scss */
+.widget-container-traffic,
+.widget-container-daily-traffic,
+.widget-container-mobile-users {
+  width: 300px;
+  height: 150px;
+}
+
 /* ===================================== */
 /*              Social Stats             */
 /* ===================================== */
-/* line 124, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 153, ../../../../Code/Project7/scss/base/_typography.scss */
 .facebook-stats,
 .instagram-stats,
 .twitter-stats {
@@ -154,7 +183,7 @@ hr {
   align-items: center;
 }
 
-/* line 136, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 165, ../../../../Code/Project7/scss/base/_typography.scss */
 #facebook-text-header,
 #instagram-text-header,
 #twitter-text-header {
@@ -162,7 +191,7 @@ hr {
   color: #7477bf;
 }
 
-/* line 143, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 172, ../../../../Code/Project7/scss/base/_typography.scss */
 #facebook-text-number,
 #instagram-text-number,
 #twitter-text-number {
@@ -173,18 +202,18 @@ hr {
 /* ===================================== */
 /*      New Members/Recent Activity      */
 /* ===================================== */
-/* line 154, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 183, ../../../../Code/Project7/scss/base/_typography.scss */
 .styleTag {
   text-align: center;
 }
 
-/* line 158, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 187, ../../../../Code/Project7/scss/base/_typography.scss */
 #new-members-header,
 #recent-activity-header {
   margin-bottom: 15px;
 }
 
-/* line 163, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 192, ../../../../Code/Project7/scss/base/_typography.scss */
 #Victoria-Chambers a,
 #Dale-Byrd a,
 #Dawn-Wood a,
@@ -195,12 +224,12 @@ hr {
 /* ===================================== */
 /*                Settings               */
 /* ===================================== */
-/* line 174, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 203, ../../../../Code/Project7/scss/base/_typography.scss */
 #send-email-notifactions-header {
   padding-right: 15px;
 }
 
-/* line 177, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 206, ../../../../Code/Project7/scss/base/_typography.scss */
 #set-profile-to-public-toggle {
   padding-right: 40px;
 }
@@ -331,6 +360,21 @@ nav {
   padding: 15px;
   height: 4rem;
   justify-content: center;
+}
+
+/* line 23, ../../../../Code/Project7/scss/components/_navigation.scss */
+.traffic-nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+/* line 28, ../../../../Code/Project7/scss/components/_navigation.scss */
+.traffic-nav :first-child {
+  background-color: #81c98f;
+  color: white;
+  border-radius: 30px;
 }
 
 /* line 2, ../../../../Code/Project7/scss/components/_grid.scss */
