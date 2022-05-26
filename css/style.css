@@ -159,18 +159,18 @@ hr {
 /* ============================================= */
 /*                  Charts                       */
 /* ============================================= */
-/* line 143, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 138, ../../../../Code/Project7/scss/base/_typography.scss */
 .widget-container-traffic,
 .widget-container-daily-traffic,
 .widget-container-mobile-users {
-  width: 300px;
+  width: 93vw;
   height: 150px;
 }
 
 /* ===================================== */
 /*              Social Stats             */
 /* ===================================== */
-/* line 153, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 148, ../../../../Code/Project7/scss/base/_typography.scss */
 .facebook-stats,
 .instagram-stats,
 .twitter-stats {
@@ -183,7 +183,7 @@ hr {
   align-items: center;
 }
 
-/* line 165, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 160, ../../../../Code/Project7/scss/base/_typography.scss */
 #facebook-text-header,
 #instagram-text-header,
 #twitter-text-header {
@@ -191,7 +191,7 @@ hr {
   color: #7477bf;
 }
 
-/* line 172, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 167, ../../../../Code/Project7/scss/base/_typography.scss */
 #facebook-text-number,
 #instagram-text-number,
 #twitter-text-number {
@@ -202,18 +202,18 @@ hr {
 /* ===================================== */
 /*      New Members/Recent Activity      */
 /* ===================================== */
-/* line 183, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 178, ../../../../Code/Project7/scss/base/_typography.scss */
 .styleTag {
   text-align: center;
 }
 
-/* line 187, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 182, ../../../../Code/Project7/scss/base/_typography.scss */
 #new-members-header,
 #recent-activity-header {
   margin-bottom: 15px;
 }
 
-/* line 192, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 187, ../../../../Code/Project7/scss/base/_typography.scss */
 #Victoria-Chambers a,
 #Dale-Byrd a,
 #Dawn-Wood a,
@@ -224,12 +224,12 @@ hr {
 /* ===================================== */
 /*                Settings               */
 /* ===================================== */
-/* line 203, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 198, ../../../../Code/Project7/scss/base/_typography.scss */
 #send-email-notifactions-header {
   padding-right: 15px;
 }
 
-/* line 206, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 201, ../../../../Code/Project7/scss/base/_typography.scss */
 #set-profile-to-public-toggle {
   padding-right: 40px;
 }
@@ -533,76 +533,92 @@ main {
     align-items: center;
     flex-wrap: wrap;
   }
-  /* line 114, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 112, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #Victoria-Chambers span,
+  #Dale-Byrd span,
+  #Dawn-Wood span,
+  #Dan-Oliver span,
+  #Victoria-Chambers-recent-activity span,
+  #Dale-Byrd-recent-activity span,
+  #Dawn-Wood-recent-activity span,
+  #Dan-Oliver-recent-activity span {
+    padding-left: 500px;
+    color: #7477bf;
+  }
+  /* line 117, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #Dan-Oliver-recent-activity span {
+    padding-left: 515px;
+  }
+  /* line 120, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Victoria-Chambers p,
   #Dale-Byrd p,
   #Dawn-Wood p,
   #Dan-Oliver p {
     text-align: left;
   }
-  /* line 121, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 127, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Victoria-Chambers a {
     padding-right: 16.625rem;
   }
-  /* line 125, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 131, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Dale-Byrd a,
   #Dawn-Wood a {
     padding-right: 21rem;
   }
-  /* line 130, ../../../../Code/Project7/scss/components/_media-queries.scss */
-  #Dan-Oliver a {
-    padding-right: 20.375rem;
-  }
-  /* line 134, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 137, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Dan-Oliver {
     margin-bottom: 15px;
   }
-  /* line 138, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 139, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #Dan-Oliver a {
+    padding-right: 20.375rem;
+  }
+  /* line 144, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Victoria-Chambers a,
   #Dale-Byrd a,
   #Dawn-Wood a,
   #Dan-Oliver a {
     display: inline;
   }
-  /* line 145, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 151, ../../../../Code/Project7/scss/components/_media-queries.scss */
   hr {
     margin-left: 0;
     margin-right: 0;
   }
-  /* line 150, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 156, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .recent-activity p {
     text-align: left;
   }
-  /* line 154, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 160, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #send-email-notifactions-header,
   #set-profile-to-public-toggle {
     padding-left: 5px;
   }
-  /* line 158, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 164, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .settings-slider {
     max-width: 100px;
   }
 }
 
 @media (min-width: 1024px) {
-  /* line 164, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 170, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .header-container h1 {
     padding-right: 42.25rem;
   }
-  /* line 167, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 173, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .headline {
     padding: 0;
     margin: 0 auto;
   }
-  /* line 172, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 178, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #alert-bar {
     width: 88vw;
   }
-  /* line 174, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 180, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #alert-bar p {
     font-size: 15px;
   }
-  /* line 178, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 184, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .new-members,
   .recent-activity,
   .message-user,
@@ -610,7 +626,24 @@ main {
     width: 50%;
     float: left;
   }
-  /* line 185, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 191, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .daily-traffic,
+  .mobile-users {
+    width: 45.9vw;
+    float: left;
+  }
+  /* line 196, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .widget-container-traffic {
+    width: 90vw;
+    height: 340px;
+  }
+  /* line 200, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  .widget-container-daily-traffic,
+  .widget-container-mobile-users {
+    width: 445px;
+    height: 200px;
+  }
+  /* line 205, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Victoria-Chambers,
   #Dale-Byrd,
   #Dawn-Wood,
@@ -621,47 +654,62 @@ main {
   #Dan-Oliver-recent-activity {
     flex-wrap: nowrap;
   }
-  /* line 195, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 214, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #Victoria-Chambers span,
+  #Dale-Byrd span,
+  #Dawn-Wood span,
+  #Dan-Oliver span,
+  #Victoria-Chambers-recent-activity span,
+  #Dale-Byrd-recent-activity span,
+  #Dawn-Wood-recent-activity span,
+  #Dan-Oliver-recent-activity span {
+    padding-left: 250px;
+  }
+  /* line 218, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #Dan-Oliver-recent-activity span {
+    padding-left: 270px;
+  }
+  /* line 221, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .new-members {
     border-right: 1px solid #777777;
     border-bottom: 1px solid #777777;
   }
-  /* line 199, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 225, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .recent-activity {
     border-bottom: 1px solid #777777;
   }
-  /* line 202, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 228, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Victoria-Chambers a {
     padding-right: 0.625rem;
   }
-  /* line 205, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 231, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Dale-Byrd a,
   #Dawn-Wood a {
     padding-right: 5rem;
   }
-  /* line 209, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 235, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Dan-Oliver a {
     padding-right: 4.375rem;
   }
-  /* line 212, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 238, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Dan-Oliver-recent-activity {
     padding-bottom: 15px;
   }
-  /* line 215, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 241, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .message-user {
     border-right: 1px solid #777777;
   }
-  /* line 218, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 244, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .settings {
     height: 274px;
   }
-  /* line 221, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 247, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .settings-buttons {
     margin-top: 9px;
   }
-  /* line 224, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 250, ../../../../Code/Project7/scss/components/_media-queries.scss */
   nav {
-    height: 86.2rem;
+    height: 104rem;
   }
 }
 
