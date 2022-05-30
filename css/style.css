@@ -46,25 +46,35 @@ header span {
 }
 
 /* line 41, ../../../../Code/Project7/scss/base/_typography.scss */
+.bellIconContainer {
+  margin: auto;
+}
+
+/* line 43, ../../../../Code/Project7/scss/base/_typography.scss */
+.bellIconContainer :hover {
+  transform: scale(1.2);
+}
+
+/* line 48, ../../../../Code/Project7/scss/base/_typography.scss */
 #header-img {
   width: 40px;
   border-radius: 50%;
   justify-self: center;
 }
 
-/* line 47, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 54, ../../../../Code/Project7/scss/base/_typography.scss */
 header h1 {
   justify-self: center;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 grey, 1px 1px 0 grey;
 }
 
-/* line 53, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 60, ../../../../Code/Project7/scss/base/_typography.scss */
 .studentName {
   justify-self: center;
   font-size: 13.5px;
 }
 
-/* line 58, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 65, ../../../../Code/Project7/scss/base/_typography.scss */
 hr {
   margin: 25px;
 }
@@ -72,19 +82,19 @@ hr {
 /* ================================================================ */
 /*                               Body                               */
 /* ================================================================ */
-/* line 66, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 73, ../../../../Code/Project7/scss/base/_typography.scss */
 .main-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/* line 72, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 79, ../../../../Code/Project7/scss/base/_typography.scss */
 .headline {
   padding: 0 10px;
 }
 
-/* line 76, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 83, ../../../../Code/Project7/scss/base/_typography.scss */
 .light-grey-tab {
   background-color: #f5f5f5;
   border: 1px solid #cfcfcf;
@@ -92,7 +102,7 @@ hr {
   height: 50px;
 }
 
-/* line 83, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 90, ../../../../Code/Project7/scss/base/_typography.scss */
 .alert {
   display: flex;
   justify-content: space-between;
@@ -105,49 +115,49 @@ hr {
   border-radius: 7px;
 }
 
-/* line 93, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 100, ../../../../Code/Project7/scss/base/_typography.scss */
 .alert p {
   font-size: 13px;
 }
 
-/* line 98, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 105, ../../../../Code/Project7/scss/base/_typography.scss */
 .traffic {
   padding: 10px;
 }
 
-/* line 101, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 108, ../../../../Code/Project7/scss/base/_typography.scss */
 .traffic,
 .daily-traffic,
 .mobile-users {
   border-bottom: 1px solid #cccccc;
 }
 
-/* line 107, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 114, ../../../../Code/Project7/scss/base/_typography.scss */
 .daily-traffic {
   padding: 0 10px 10px 10px;
 }
 
-/* line 112, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 119, ../../../../Code/Project7/scss/base/_typography.scss */
 .daily-traffic h3 {
   padding: 10px 0;
 }
 
-/* line 116, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 123, ../../../../Code/Project7/scss/base/_typography.scss */
 .mobile-users {
   padding: 10px;
 }
 
-/* line 118, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 125, ../../../../Code/Project7/scss/base/_typography.scss */
 .mobile-users h3 {
   padding-bottom: 10px;
 }
 
-/* line 123, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 130, ../../../../Code/Project7/scss/base/_typography.scss */
 .socialStatsH3 {
   padding: 10px 0 0 10px;
 }
 
-/* line 127, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 134, ../../../../Code/Project7/scss/base/_typography.scss */
 .new-members,
 .recent-activity,
 .message-user,
@@ -159,7 +169,7 @@ hr {
 /* ============================================= */
 /*                  Charts                       */
 /* ============================================= */
-/* line 138, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 145, ../../../../Code/Project7/scss/base/_typography.scss */
 .widget-container-traffic,
 .widget-container-daily-traffic,
 .widget-container-mobile-users {
@@ -170,7 +180,7 @@ hr {
 /* ===================================== */
 /*              Social Stats             */
 /* ===================================== */
-/* line 148, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 155, ../../../../Code/Project7/scss/base/_typography.scss */
 .facebook-stats,
 .instagram-stats,
 .twitter-stats {
@@ -183,7 +193,7 @@ hr {
   align-items: center;
 }
 
-/* line 160, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 167, ../../../../Code/Project7/scss/base/_typography.scss */
 #facebook-text-header,
 #instagram-text-header,
 #twitter-text-header {
@@ -191,7 +201,7 @@ hr {
   color: #7477bf;
 }
 
-/* line 167, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 174, ../../../../Code/Project7/scss/base/_typography.scss */
 #facebook-text-number,
 #instagram-text-number,
 #twitter-text-number {
@@ -202,18 +212,18 @@ hr {
 /* ===================================== */
 /*      New Members/Recent Activity      */
 /* ===================================== */
-/* line 178, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 185, ../../../../Code/Project7/scss/base/_typography.scss */
 .styleTag {
   text-align: center;
 }
 
-/* line 182, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 189, ../../../../Code/Project7/scss/base/_typography.scss */
 #new-members-header,
 #recent-activity-header {
   margin-bottom: 15px;
 }
 
-/* line 187, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 194, ../../../../Code/Project7/scss/base/_typography.scss */
 #Victoria-Chambers a,
 #Dale-Byrd a,
 #Dawn-Wood a,
@@ -224,12 +234,12 @@ hr {
 /* ===================================== */
 /*                Settings               */
 /* ===================================== */
-/* line 198, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 205, ../../../../Code/Project7/scss/base/_typography.scss */
 #send-email-notifactions-header {
   padding-right: 15px;
 }
 
-/* line 201, ../../../../Code/Project7/scss/base/_typography.scss */
+/* line 208, ../../../../Code/Project7/scss/base/_typography.scss */
 #set-profile-to-public-toggle {
   padding-right: 40px;
 }
@@ -475,26 +485,26 @@ main {
   /* line 64, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .daily-traffic,
   .mobile-users {
-    width: 46.8vw;
-    float: left;
+    width: 43vw;
+    display: inline-block;
   }
   /* line 69, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  #daily-traffic-chart {
+    width: 240px;
+  }
+  /* line 72, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .widget-container-daily-traffic,
   .widget-container-mobile-users {
     width: 320px;
     height: 200px;
   }
-  /* line 74, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 77, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .daily-traffic {
     border-right: 1px solid #cccccc;
   }
-  /* line 77, ../../../../Code/Project7/scss/components/_media-queries.scss */
+  /* line 80, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .social-stats {
     display: flex;
-  }
-  /* line 80, ../../../../Code/Project7/scss/components/_media-queries.scss */
-  .socialStatsH3 {
-    margin-top: 250px;
   }
   /* line 83, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .facebook-stats {
@@ -667,7 +677,7 @@ main {
   }
   /* line 218, ../../../../Code/Project7/scss/components/_media-queries.scss */
   #Dan-Oliver-recent-activity span {
-    padding-left: 270px;
+    padding-left: 265px;
   }
   /* line 221, ../../../../Code/Project7/scss/components/_media-queries.scss */
   .new-members {

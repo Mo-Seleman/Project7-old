@@ -38,6 +38,13 @@ header span {
   justify-self: center;
 }
 
+.bellIconContainer {
+  margin: auto;
+:hover {
+  transform: scale(1.2);
+ }
+}
+
 #header-img {
   width: 40px;
   border-radius: 50%;

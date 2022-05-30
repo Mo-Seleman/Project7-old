@@ -63,8 +63,11 @@
   }
   .daily-traffic,
   .mobile-users {
-    width: 46.8vw;
-    float: left;
+    width: 43vw;
+    display: inline-block;
+  }
+  #daily-traffic-chart {
+    width: 240px;
   }
   .widget-container-daily-traffic,
   .widget-container-mobile-users {
@@ -76,9 +79,6 @@
   }
   .social-stats {
     display: flex;
-  }
-  .socialStatsH3 {
-    margin-top: 250px;
   }
   .facebook-stats {
     margin: 10px 5px 10px 10px;
@@ -216,7 +216,7 @@
     }
   }
   #Dan-Oliver-recent-activity span {
-    padding-left: 270px;
+    padding-left: 265px;
     }
   .new-members {
     border-right: 1px solid $grey-text;

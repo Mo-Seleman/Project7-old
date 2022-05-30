@@ -3,6 +3,9 @@ const alertBannerX = document.querySelector("#alert-bar-x");
 const trafficCanvas = document.querySelector("#traffic-chart");
 const dailyTrafficCanvas = document.querySelector("#daily-traffic-chart");
 const mobileUsersCanvas = document.querySelector("#mobile-users-chart");
+const sendButton = document.querySelector("#message-user-button");
+const searchForUser = document.querySelector("#message-user-search")
+const messageForUser = document.querySelector("#message-user-message")
 
 /* ============================================= */
 /*                  X Button                     */
@@ -113,7 +116,15 @@ maintainAspectRatio: false,
   },
  }
 );
-
 /* ============================================= */
-/*                                               */
+/*                 Send Button                   */
 /* ============================================= */
+// sendButton.addEventListener("click", (e) => {
+//   const sendButtonValue = e.value;
+//   const searchUserValue = 
+//   if (sendButtonValue === undefined) {
+//     alert("Error: User Not Selected/Message Field Empty");
+//   } else {
+//     alertBanner("Success")
+//   }
+// });
